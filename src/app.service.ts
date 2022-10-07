@@ -6,6 +6,7 @@ export class AppService {
     return {
       "message":"Application API Working",
       "version":"0.0.1"
+      "you should see this"
     };
   }
 }
