@@ -7,6 +7,7 @@ export class AppService {
       "message":"Application API Working",
       "version":"0.0.1"
       "you should see this"
+      "adding other script commands"
     };
   }
 }
