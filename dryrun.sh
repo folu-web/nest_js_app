@@ -1,2 +1,5 @@
 #!bash
-sudo apt update
+sudo apt update -y
+curl ifconfig.co
+
+
