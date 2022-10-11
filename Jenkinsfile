@@ -24,7 +24,7 @@ pipeline {
                     sh """
                     #!/bin/bash
 										
-										echo "connecting to remote or deploy server"	
+		    echo "connecting to remote or deploy server"	
                     ssh -i $SSH_CRED -t -o StrictHostKeyChecking=no ubuntu@ec2-3-96-53-163.ca-central-1.compute.amazonaws.com << EOF
                     curl ifconfig.co/ip
                     df -h
@@ -69,3 +69,7 @@ pipeline {
                     << EOF
                     """
                 }
+            }
+        }
+    }
+}
